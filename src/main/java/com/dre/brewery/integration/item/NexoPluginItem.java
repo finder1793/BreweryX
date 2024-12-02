@@ -8,7 +8,7 @@ import org.bukkit.inventory.ItemStack;
 public class NexoPluginItem extends PluginItem {
     @Override
     public boolean matches(ItemStack itemStack) {
-        if (!IAOraxenAddon.isUsingNexo()) {
+        if (!Hook.NEXO.isEnabled()) {
             return false;
         }
 
