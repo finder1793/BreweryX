@@ -8,7 +8,7 @@ plugins {
     id("com.gradleup.shadow") version "8.3.5"
 }
 
-val langVersion: Int = 17
+val langVersion: Int = 21
 val encoding = "UTF-8"
 
 group = "com.dre.brewery"
