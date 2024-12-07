@@ -162,7 +162,7 @@ fun getGitBranch(): String = ByteArrayOutputStream().use { stream ->
 
 java {
     toolchain {
-        languageVersion = JavaLanguageVersion.of(17)
+        languageVersion = JavaLanguageVersion.of(21)
     }
 }
 
