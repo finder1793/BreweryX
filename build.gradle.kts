@@ -158,9 +158,15 @@ fun getGitBranch(): String = ByteArrayOutputStream().use { stream ->
     return branch
 }
 
+
+
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(langVersion)
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+        vendor = JvmVendorSpec.ADOPTIUM
+    }
 }
+
 
 
 publishing {
