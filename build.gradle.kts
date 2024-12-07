@@ -8,7 +8,7 @@ plugins {
     id("com.gradleup.shadow") version "8.3.5"
 }
 
-val langVersion: Int = 21
+val langVersion: Int = 17
 val encoding = "UTF-8"
 
 group = "com.dre.brewery"
@@ -159,7 +159,7 @@ fun getGitBranch(): String = ByteArrayOutputStream().use { stream ->
 }
 
 java {
-    toolchain.languageVersion = JavaLanguageVersion.of(langVersion)
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
 }
 
 
