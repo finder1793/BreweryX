@@ -6,7 +6,7 @@ plugins {
     id("java")
     id("maven-publish")
     id("com.gradleup.shadow") version "8.3.5"
-    id('org.gradle.toolchains.foojay-resolver-convention') version '0.5.0'
+    id("org.gradle.toolchains.foojay-resolver-convention") version "0.5.0"
 }
 
 val langVersion: Int = 17
