@@ -25,7 +25,7 @@ public class Hook {
     public static final Hook SLIMEFUN = new Hook("Slimefun");
     public static final Hook ORAXEN = new Hook("Oraxen");
     public static final Hook ITEMSADDER = new Hook("ItemsAdder");
-   public static final Hook NEXO = new Hook("Nexo");
+    public static final Hook NEXO = new Hook("Nexo");
 
     protected final String name;
     protected boolean enabled;
