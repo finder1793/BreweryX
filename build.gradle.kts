@@ -29,6 +29,7 @@ repositories {
     maven("https://repo.extendedclip.com/content/repositories/placeholderapi/") // PlaceholderAPI
     maven("https://repo.glaremasters.me/repository/towny/") // Towny
     maven("https://repo.oraxen.com/releases") // Oraxen
+    maven("https://repo.nexomc.com/releases")
     maven("https://storehouse.okaeri.eu/repository/maven-public/") // Okaeri Config
 }
 
@@ -81,7 +82,7 @@ dependencies {
     compileOnly("me.clip:placeholderapi:2.11.5") // https://www.spigotmc.org/resources/placeholderapi.6245/history
     compileOnly("io.th0rgal:oraxen:1.163.0")
     compileOnly("com.github.LoneDev6:API-ItemsAdder:3.6.1")
-
+    compileOnly("com.nexomc:nexo:0.3.0")
 
 
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
