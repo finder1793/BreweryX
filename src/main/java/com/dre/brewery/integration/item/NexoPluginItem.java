@@ -5,7 +5,7 @@ import com.dre.brewery.recipe.PluginItem;
 import com.nexomc.nexo.api.NexoItems;
 import org.bukkit.inventory.ItemStack;
 
-public class OraxenPluginItem extends PluginItem {
+public class NexoPluginItem extends PluginItem {
     @Override
     public boolean matches(ItemStack itemStack) {
         if (!Hook.NEXO.isEnabled()) {
