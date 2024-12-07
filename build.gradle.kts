@@ -163,7 +163,6 @@ fun getGitBranch(): String = ByteArrayOutputStream().use { stream ->
 java {
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
-        vendor = JvmVendorSpec.ADOPTIUM
     }
 }
 
