@@ -1,10 +1,8 @@
   - name: Upstream Sync
-  # You may pin to the exact commit or the version.
-  # uses: aormsby/Fork-Sync-With-Upstream-action@1090e365224fc834e7e1de521c417ded2d6fcb53
   uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
   with:
     # Branch receiving updates from the upstream repo, e.g. => main, master, prod
-    target_sync_branch: 
+    target_sync_branch: => main
     # Input for passing secrets.GITHUB_TOKEN when disabling persistent auth in the checkout step
     target_repo_token: 
     # Token for accessing the remote repo through HTTPS authentication
