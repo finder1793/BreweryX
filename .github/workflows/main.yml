@@ -1,4 +1,4 @@
-  - name: Upstream Sync
+ - name: Upstream Sync
   uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
   with:
     # Branch receiving updates from the upstream repo, e.g. => main, master, prod
